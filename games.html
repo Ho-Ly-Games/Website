@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="auto-scaling-disabled">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+    <meta name="viewport" content="width=device-width"/>
+
+    <!-- Favicon and title -->
+    <link rel="icon" href="/img/favico.png">
+    <title>Ho-Ly Games | MiniMaze</title>
+
+    <!-- Halfmoon CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet"/>
+    <!--
+      Or,
+      Use the following (no variables, supports IE11):
+      <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
+      Learn more: https://www.gethalfmoon.com/docs/customize/#notes-on-browser-compatibility
+    -->
+    <script src="https://kit.fontawesome.com/efec0dc3e9.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="false" data-set-preferred-mode-onload="true">
+<!-- Modals go here -->
+<!-- Reference: https://www.gethalfmoon.com/docs/modal -->
+
+<!-- Page wrapper start -->
+<div class="page-wrapper with-navbar">
+
+    <nav class="navbar">
+        <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+        <a href="/index.html" class="navbar-brand active">
+            <img src="/img/light.svg" alt="Ho-Ly Games Logo" class="hidden-lm">
+            <img src="/img/dark.svg" alt="Ho-Ly Games Logo" class="hidden-dm">
+            Ho-Ly Games
+        </a>
+
+        <!-- Navbar nav -->
+        <ul class="navbar-nav d-none d-sm-flex">
+            <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
+            <li class="nav-item">
+                <a href="/games" class="nav-link disabled">Games</a>
+            </li>
+            <li class="nav-item">
+                <a href="/news" class="nav-link disabled">News</a>
+            </li>
+            <li class="nav-item">
+                <a href="/about" class="nav-link disabled">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="/contact" class="nav-link disabled">Contact</a>
+            </li>
+        </ul>
+        <div class="hidden-sm-and-up ml-auto">
+            <div class="nav-item dropdown with-arrow">
+                <a class="nav-link" data-toggle="dropdown" id="nav-link-dropdown-toggle">
+                    <i class="fa fa-bars ml-5" aria-hidden="true"></i> <!-- ml-5= margin-left: 0.5rem (5px) -->
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-link-dropdown-toggle">
+                    <a href="/games" class="dropdown-item">Games</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="/news" class="dropdown-item">News</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="/about" class="dropdown-item">About</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="/contact" class="dropdown-item">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Sidebar overlay -->
+
+    <!-- Sidebar end -->
+
+    <!-- Content wrapper start -->
+    <div class="content-wrapper">
+        <!--
+      Add your page's main content here
+      Examples:
+      1. https://www.gethalfmoon.com/docs/content-and-cards/#building-a-page
+      2. https://www.gethalfmoon.com/docs/grid-system/#building-a-dashboard
+    -->
+
+
+        <nav aria-label="breadcrumb navigation">
+            <ul class="breadcrumb m-15 font-size-16 font-weight-bold text-monospace">
+                <li class="breadcrumb-item"><a href="/index">Home</a></li>
+                <li class="breadcrumb-item active"><a href="/games.html">Games</a></li>
+            </ul>
+        </nav>
+
+        <div class="content w-three-quarter w-xl-half d-flex justify-content-center flex-column m-auto">
+            <h1 class="text-center font-weight-bolder">
+                Games
+            </h1>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-11 col-md-9 col-lg-7 col-xlg-5  content card shadow-lg">
+                    <img src="https://play-lh.googleusercontent.com/sYg7NXiMMDQxDWHeurxqtVv3okDmoPlyAa4hHiYIW6WsofXRyW0cBIxBanAFro50cQ=s360-rw"
+                         class="img-fluid rounded w-full" alt="MiniMaze Logo">
+                    <h1 class="content-title text-center">
+                        MiniMaze <em class="text-right font-weight-light font-size-14">2020</em>
+                    </h1>
+                    <p>
+                        A 2D physics based maze game with 100 procedurally generated levels.
+                    </p>
+                    <div class="text-right">
+                        <!-- text-right = text-align: right -->
+                        <a href="/games/minimaze" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content wrapper end -->
+
+</div>
+<!-- Page wrapper end -->
+
+<!-- Halfmoon JS -->
+<script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+</body>
+
+</html>
